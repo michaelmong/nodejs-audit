@@ -1,0 +1,10 @@
+This is line 1.
+
+Input file, for testing Readfile.js
+And this is the end of the file.
+
+
+
+
+
+Bye.
