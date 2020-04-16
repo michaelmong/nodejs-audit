@@ -9,8 +9,9 @@ const lineReader = readline.createInterface({input: fs.createReadStream(filename
 console.log('Start reading ' + filename + '...');
 console.log('==========================');
 
+let lineNo = 0;
 lineReader.on('line', line => {
-    console.log(line);
+    console.log(++lineNo, ':', line);
 });
 
 lineReader.on('close', () => {
