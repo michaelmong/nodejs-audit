@@ -26,3 +26,5 @@ This [repo](https://github.com/michaelmong/nodejs-audit "nodejs-audit") has been
 11-Apr-2020: Repo has been created and published. ``Https.js`` and relevant files has been added to repo.
 
 16-Apr-2020: ``Readfile.js`` and relevant files has been added to repo.
+
+26-Apr-2020: ``Excel4node.js``,  ``Exceljs.js`` and relevant files has been added to repo.
