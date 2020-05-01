@@ -23,7 +23,7 @@ This [repo](https://github.com/michaelmong/nodejs-audit "nodejs-audit") has been
   5. ``iplist_overlap.js``
       Working with excel by xlsx - Even Exceljs is perfect for reading Excel file, there is a limitation on the maximum rows on a sheet though. I'm not quite sure about this number, because the error describes it as 65536, while I have only 12000 rows only. However, xlsx doesn't provide _rowCount_ and _columnCount_ attributes. And xlsx doesn't provide addressing of cell in (row, col) format, e.g. cell(2, 3), but it locates cell by 'C2', cell('C2') for example. In this project, ip_overlap.js reads ``IPLIST.xlsx`` file and generate ``Out_IPLIST.xlsx`` with overlap information of each row. Of course, data in ``IPLIST.xlsx`` is simulated for demonstration due to the data privacy. excel4node library has been used to write the Excel file after overlap processing.
   
-``README.md`` has been updated on 11 April, 2020
+``README.md`` has been updated on 1 May, 2020
 
 11-Apr-2020: Repo has been created and published. ``Https.js`` and relevant files has been added to repo.
 
